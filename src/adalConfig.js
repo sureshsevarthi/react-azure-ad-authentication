@@ -1,8 +1,8 @@
 import { AuthenticationContext, adalFetch, withAdalLogin } from 'react-adal';
 
 export const adalConfig = {
-  tenant: 'ssevarthi.onmicrosoft.com',
-  clientId: '2ffb8050-3150-4d20-9f1e-2e7bf2d42b58',
+  tenant: 'tenant.onmicrosoft.com',
+  clientId: '2ffb8050-3150-4d20-9f1e-2e7bf2d42',
   endpoints: {
     api: 'https://graph.microsoft.com',
   },
